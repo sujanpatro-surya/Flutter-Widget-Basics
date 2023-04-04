@@ -9,9 +9,9 @@ class MyBlogBody extends StatefulWidget {
 
 class _MyBlogBodyState extends State<MyBlogBody> {
   String _blogText = 'Welcome to my blog';
-  final String _indiaBlogText = 'This is the country India. This is a beautiful country. It is a secular country, not a developed country.';
-  final String _canadaBlogText = 'This is the country Canada. This is not USA. It is a separate country by itself.';
-  final String _chinaBlogText = 'This is the country China. It is very different from other countries of the world. It manages its own matters by itself.';
+  static const String _indiaBlogText = 'This is the country India. This is a beautiful country. It is a secular country, not a developed country.';
+  static const String _canadaBlogText = 'This is the country Canada. This is not USA. It is a separate country by itself.';
+  static const String _chinaBlogText = 'This is the country China. It is very different from other countries of the world. It manages its own matters by itself.';
   @override
   Widget build(BuildContext context) {
     return Center(
