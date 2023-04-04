@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Basic Blog Structure',
       theme: ThemeData(primarySwatch: Colors.deepOrange),
-      home: const MyHomePage(),
+      home: const MyHomePage()
     );
   }
 }
